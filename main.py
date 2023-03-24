@@ -58,7 +58,7 @@ class Main_Window(QWidget):
 
 
         # display icons
-        cv_img = cv.imread('play1.png')
+        cv_img = cv.imread('static/play1.png')
         qt_img = self.convert_cv_qt(cv_img)
         qt_img2 = self.convert_cv_qt(cv_img)
         self.frame1.setPixmap(qt_img)
